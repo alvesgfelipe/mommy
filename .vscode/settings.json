@@ -1,0 +1,28 @@
+{
+  "[css][javascript][json][jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.rulers": [80],
+    "editor.tabSize": 2
+  },
+  "[html][markdown]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.rulers": [120],
+    "editor.tabSize": 2
+  },
+  "[python]": {
+    "editor.codeActionsOnSave": { "source.organizeImports": true },
+    "editor.defaultFormatter": "ms-python.black-formatter",
+    "editor.rulers": [90],
+    "editor.tabSize": 4,
+    "editor.wordBasedSuggestions": false
+  },
+
+  "editor.insertSpaces": true,
+  "editor.linkedEditing": true,
+  "editor.trimAutoWhitespace": true,
+  "files.eol": "\n",
+  "files.insertFinalNewline": true,
+  "files.trimFinalNewlines": true,
+  "files.trimTrailingWhitespace": true,
+  "isort.args": ["--profile", "black"]
+}
