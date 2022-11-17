@@ -1,0 +1,14 @@
+# VSCode
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
+
+# Python
+__pycache__/
+
+# Python - Flask
+.env
+.flaskenv
+
+# Python - pytest
+.pytest_cache/
