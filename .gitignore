@@ -9,6 +9,8 @@ __pycache__/
 # Python - Flask
 .env
 .flaskenv
+*.sqlite
+instance/
 
 # Python - pytest
 .pytest_cache/
