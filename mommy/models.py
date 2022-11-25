@@ -22,10 +22,10 @@ class Usuario(db.Model, UserMixin):
     senha = db.Column(db.CHAR(60), nullable=False)
 
     def setar_senha(self, senha_digitada: str):
-        self.password = generate_password_hash(senha_digitada)
+        self.senha = generate_password_hash(senha_digitada)
 
     def verificar_senha(self, senha_digitada: str):
-        return check_password_hash(pw_hash=self.password, password=senha_digitada)
+        return check_password_hash(pw_hash=self.senha, password=senha_digitada)
 
 
 class Mes(db.Model):
