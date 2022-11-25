@@ -7,7 +7,7 @@ profile = "black"
 
 [tool.poetry]
 name = "mommy"
-version = "0.3.1"
+version = "0.4.0"
 description = "Projeto “web” criado para ser o responsável por gerenciar os lucros do trabalho da minha mãe."
 authors = ["Felipe Alves <alvesgfelipe@tuta.io>"]
 license = "MIT"
