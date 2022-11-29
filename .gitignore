@@ -12,6 +12,7 @@ __pycache__/
 .webassets-cache
 *.sqlite
 instance/
+packed.css
 
 # Python - pytest
 .pytest_cache/
