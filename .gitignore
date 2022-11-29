@@ -9,6 +9,7 @@ __pycache__/
 # Python - Flask
 .env
 .flaskenv
+.webassets-cache
 *.sqlite
 instance/
 
