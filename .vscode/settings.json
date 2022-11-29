@@ -26,7 +26,8 @@
     "**/__pycache__": true,
     "**/.pytest_cache": true,
     "**/.webassets-cache": true,
-    "**/instance": true
+    "**/instance": true,
+    "**/packed.css": true
   },
   "files.insertFinalNewline": true,
   "files.trimFinalNewlines": true,
