@@ -25,6 +25,7 @@
   "files.exclude": {
     "**/__pycache__": true,
     "**/.pytest_cache": true,
+    "**/.webassets-cache": true,
     "**/instance": true
   },
   "files.insertFinalNewline": true,
