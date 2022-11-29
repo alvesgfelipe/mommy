@@ -17,6 +17,7 @@
     "editor.wordBasedSuggestions": false
   },
 
+  "editor.formatOnSave": true,
   "editor.insertSpaces": true,
   "editor.linkedEditing": true,
   "editor.trimAutoWhitespace": true,
