@@ -3,7 +3,7 @@ from models import db
 
 
 def create_app(usar_pytest: bool = False) -> Flask:
-    app: Flask = Flask(__name__)
+    app = Flask(__name__)
 
     if usar_pytest:
         app.config["DEBUG"] = False

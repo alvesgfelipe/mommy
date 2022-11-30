@@ -5,7 +5,7 @@ from mommy.models import Usuario
 
 
 def selecionar_usuario_no_db(db: SQLAlchemy) -> Usuario:
-    usuario: Usuario = db.session.execute(db.select(Usuario)).one()[0]
+    usuario = db.session.execute(db.select(Usuario)).one()[0]
 
     return usuario
 

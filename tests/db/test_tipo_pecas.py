@@ -6,7 +6,7 @@ from mommy.models import Peca
 
 
 def selecionar_peca_no_db(db: SQLAlchemy) -> Peca:
-    peca: Peca = db.session.execute(db.select(Peca)).one()[0]
+    peca = db.session.execute(db.select(Peca)).one()[0]
 
     return peca
 

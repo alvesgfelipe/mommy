@@ -6,7 +6,7 @@ from mommy.models import Mes
 
 
 def selecionar_mes_no_db(db: SQLAlchemy) -> Mes:
-    mes: Mes = db.session.execute(db.select(Mes)).one()[0]
+    mes = db.session.execute(db.select(Mes)).one()[0]
 
     return mes
 

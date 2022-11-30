@@ -5,10 +5,10 @@ from flask_bcrypt import check_password_hash, generate_password_hash
 from flask_login import UserMixin
 from flask_sqlalchemy import SQLAlchemy
 
-db: SQLAlchemy = SQLAlchemy()
+db = SQLAlchemy()
 
 
-def gerar_uuid():
+def gerar_uuid() -> str:
     return str(uuid4())
 
 
@@ -24,7 +24,7 @@ class Usuario(db.Model, UserMixin):
     def setar_senha(self, senha_digitada: str):
         self.senha = generate_password_hash(senha_digitada)
 
-    def verificar_senha(self, senha_digitada: str):
+    def verificar_senha(self, senha_digitada: str) -> bool:
         return check_password_hash(pw_hash=self.senha, password=senha_digitada)
 
 
