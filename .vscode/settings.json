@@ -4,6 +4,9 @@
     "editor.rulers": [80],
     "editor.tabSize": 2
   },
+  "[html]": {
+    "editor.formatOnSave": false
+  },
   "[html][markdown]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode",
     "editor.rulers": [120],
